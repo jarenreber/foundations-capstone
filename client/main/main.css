@@ -1,0 +1,17 @@
+#homehero {
+    background-image: url("../images/homeHero.jpeg");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionMain {
+    width: 80%;
+    margin: auto;
+}
+
+.trailCard {
+    width: 80%;
+    margin: auto;
+}

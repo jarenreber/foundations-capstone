@@ -1,0 +1,17 @@
+.trailCardSearchImg {
+    max-width: 300px;
+    height: auto;
+}
+
+.textAreaTrail {
+    vertical-align: middle;
+}
+
+.flexHTML {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addedTrailsWrapper {
+    max-width: 80%;
+}

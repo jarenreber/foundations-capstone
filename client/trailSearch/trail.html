@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./trail.css">
+    <link rel="stylesheet" href="../index.css">
+    <title>Gila Outdoors</title>
+</head>
+<body>
+    <header class="wrapper header">
+        <section class="nameTag">
+            <h1>
+                <img src="../images/logo.png" alt="logo of mountain biker with mountains and sunset" class="makeSmaller"> Gila Outdoors
+            </h1>
+        </section>
+        <section>
+            <nav class="nav">
+                <a href="../main/main.html"><button class="homeButton">Home</button></a>
+                &nbsp;
+                <a href="../trailSearch/trail.html"><button class="trailsButton">Trail Search</button></a>
+                &nbsp;
+                <a href="../trailTracker/trailTracker.html"><button class="trailsButton">Trail Tracker</button></a>
+            </nav>
+        </section>
+    </header>
+    <div id="trailHero">
+    </div>
+    <main class="wrapper">
+        <section class="addTrail">
+            <h2>Add a Trail</h2>
+            <form id="trailSearchForm">
+                <label for="latitude">Latitude</label>
+                <input type="text" id="latitude">
+
+                <label for="longitude">Longitude</label>
+                <input type="text" id="longitude">
+                <button id="trailSearchButton">Search</button>
+            </form>            
+        </section>
+
+            <h2>Trails</h2>
+        <section id="trailWrapper">
+            <section id="trailSearch"> Trail Search</section>
+            <section id="trailsAdded"></section>
+        </section>
+    </main>
+    <footer class="wrapper footer">
+        Copyright &copy; 2022 Gila Outdoors
+        <a href="mailto:rbrjaren@gmail.com">rbrjaren@gmail.com</a>
+    </footer>
+    <script src="../../node_modules/axios/dist/axios.min.js"></script>
+    <script src="./trail.js" type="module"></script>    
+</body>
+</html>

@@ -1,0 +1,19 @@
+.trailCardSearchImg {
+    max-width: 300px;
+    height: auto;
+}
+
+.trailSearchCard {
+    border-color: #8D98A7;
+    border-width: 3px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#trailHero {
+    background-image: url("../images/mountainbikehero.jpg");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
