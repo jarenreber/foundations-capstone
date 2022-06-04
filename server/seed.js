@@ -53,6 +53,8 @@ module.exports = {
     }
 }
 
+
+//code to add for future use
 // CREATE TABLE connection (
 //     connection_id SERIAL PRIMARY KEY,
 //     user_id VARCHAR(50) FOREIGN KEY NOT NULL REFERENCES users(user_id),

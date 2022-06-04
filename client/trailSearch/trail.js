@@ -65,5 +65,3 @@ const handleSubmit = (e) => {
 };
 
 trailSearchForm.addEventListener("submit", handleSubmit);
-
-//+e.target.id.replace(/\D/g, "")
